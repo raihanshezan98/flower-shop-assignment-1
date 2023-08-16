@@ -1,14 +1,16 @@
 * {
     margin: 0;
+    padding: 0;
     font-family: 'Lato', sans-serif;
 }
 
-/* header-styles */
+/* header styles */
 
 .banner-container {
     display: flex;
     height: 100vh;
     align-items: center;
+    justify-content: space-between;
     background-color: rgba(229, 84, 115, 0.10);
 }
 
@@ -51,4 +53,90 @@
 
 .banner-image>img {
     width: 500px;
+    padding-left: 10px;
+}
+
+
+/* main styles  */
+
+/* featured-flowers-section */
+
+
+.featured-flowers-section {
+    margin-top: 150px;
+}
+
+.featured-flowers-section>h1 {
+    text-align: center;
+    color: #272727;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.featured-flowers-section>p {
+    text-align: center;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 45px;
+}
+
+
+.featured-flowers-container {
+    display: flex;
+    align-items: flex-end;
+    width: 80%;
+    margin: 0 auto;
+    gap: 20px;
+
+}
+
+.p-tulip {
+    background-color: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    width: 400px;
+    height: 500px;
+    position: relative;
+
+}
+
+.bouquet {
+    background-color: rgba(5, 151, 160, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    width: 400px;
+    height: 500px;
+    position: relative;
+}
+
+.y-tulip {
+    background-color: rgba(71, 125, 17, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    width: 400px;
+    height: 500px;
+    position: relative;
+}
+
+.featured-flower-photo {
+    width: 250px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flower-items {
+    display: flex;
+    list-style: none;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.flower-items h3 {
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: underline;
 }
