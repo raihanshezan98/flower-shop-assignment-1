@@ -1,3 +1,5 @@
+/* common styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -63,7 +65,7 @@
 
 
 .featured-flowers-section {
-    margin-top: 150px;
+    margin-top: 125px;
 }
 
 .featured-flowers-section>h1 {
@@ -85,18 +87,17 @@
 
 .featured-flowers-container {
     display: flex;
-    align-items: flex-end;
+    justify-content: space-between;
     width: 80%;
     margin: 0 auto;
-    gap: 20px;
 
 }
 
 .p-tulip {
     background-color: rgba(167, 33, 98, 0.15);
     border-radius: 300px 300px 0px 0px;
-    width: 400px;
-    height: 500px;
+    width: 375px;
+    height: 450px;
     position: relative;
 
 }
@@ -104,16 +105,16 @@
 .bouquet {
     background-color: rgba(5, 151, 160, 0.15);
     border-radius: 300px 300px 0px 0px;
-    width: 400px;
-    height: 500px;
+    width: 375px;
+    height: 450px;
     position: relative;
 }
 
 .y-tulip {
     background-color: rgba(71, 125, 17, 0.15);
     border-radius: 300px 300px 0px 0px;
-    width: 400px;
-    height: 500px;
+    width: 375px;
+    height: 450px;
     position: relative;
 }
 
@@ -127,8 +128,20 @@
     margin-right: auto;
 }
 
+.featured-flower-b-photo {
+    width: 250px;
+    position: absolute;
+    top: 25%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .flower-items {
     display: flex;
+    justify-content: space-evenly;
+    gap: 225px;
     list-style: none;
     width: 80%;
     margin: 20px auto;
@@ -139,4 +152,25 @@
     font-size: 24px;
     font-weight: 700;
     text-decoration: underline;
+}
+
+.service-section {
+    display: flex;
+    width: 70%;
+    background-color: rgba(39, 39, 39, 0.05);    
+    border-radius: 8px;
+    justify-content: space-between;
+    text-align: center;
+    margin: 100px auto;
+    padding: 50px 80px;
+}
+
+.service-section img {
+    width: 70px;
+}
+
+.service-section h3 {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 20px;
+    font-weight: 600;
 }
