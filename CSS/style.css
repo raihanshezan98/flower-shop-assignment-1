@@ -262,11 +262,12 @@
 .coupon-section {
     background-image: url("../FlowerAsset/Rectangle\ 9.png");
     background-size: cover;
-    background-position: center;
+    /* background-position: center; */
     width: 80%;
     margin: 100px auto;
     text-align: center;
     border-radius: 8px; 
+    height: 40vh;
 }
 
 .coupon-section > h2 {
@@ -282,10 +283,23 @@
 }
 
 input[type="email"] {
+    background-color: #FFF;
+    border-radius: 8px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    padding: 13px 300px 13px 20px; 
 
 }
 
 input[type="submit"] {
-    
+    background-color: #E55473;
+    border-radius: 8px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    padding: 10px 20px;
 }
 
