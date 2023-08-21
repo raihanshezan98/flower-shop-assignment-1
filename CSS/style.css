@@ -160,6 +160,8 @@
     cursor: pointer;
 }
 
+/* service section  */
+
 .service-section {
     display: flex;
     width: 70%;
@@ -257,6 +259,62 @@
 .insta-photos {
     width: 290px;
 }
+
+/* customer-review-section */
+
+.customer-review-section {
+    background-color: rgba(39, 39, 39, 0.05);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 50px 155px;
+}
+
+.customer-review-section > h1 {
+    margin-bottom: 50px;
+    text-align: center;
+    color: #272727;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#text-color {
+    color: rgb(5, 151, 160);
+}
+
+.customer-review-container {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+
+.customer-photo {
+    width: 80px;
+    border-radius: 50px;
+    margin-left: 135px;
+}
+
+.customer > p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 18px;
+}
+
+.customer-list {
+    display: flex;
+    list-style: none;
+    margin-top: 15px;
+    justify-content: center;
+    gap: 360px;
+
+}
+
+.customer-list  h5 {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+}
+
 
 /* coupon section  */
 
